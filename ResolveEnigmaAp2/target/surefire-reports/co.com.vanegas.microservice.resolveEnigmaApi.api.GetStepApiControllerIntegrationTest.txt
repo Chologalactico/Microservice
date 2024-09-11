@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: co.com.vanegas.microservice.resolveEnigmaApi.api.GetStepApiControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.032 s <<< FAILURE! - in co.com.vanegas.microservice.resolveEnigmaApi.api.GetStepApiControllerIntegrationTest
+initializationError  Time elapsed: 0.024 s  <<< ERROR!
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\Users\galac\OneDrive\Documentos\universidad\ResolveEnigmaAp\target\test-classes\co\com\vanegas\microservice\resolveEnigmaApi\api\GetStepApiControllerIntegrationTest.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [C:\Users\galac\OneDrive\Documentos\universidad\ResolveEnigmaAp\target\test-classes\co\com\vanegas\microservice\resolveEnigmaApi\api\GetStepApiControllerIntegrationTest.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 61
+Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [C:\Users\galac\OneDrive\Documentos\universidad\ResolveEnigmaAp\target\test-classes\co\com\vanegas\microservice\resolveEnigmaApi\api\GetStepApiControllerIntegrationTest.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 61
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
